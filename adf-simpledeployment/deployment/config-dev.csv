@@ -1,2 +1,0 @@
-type,name,path,value
-linkedService,LS_AzureKeyVault,typeProperties.baseUrl,"$($Env:KeyVaultUrl)"
