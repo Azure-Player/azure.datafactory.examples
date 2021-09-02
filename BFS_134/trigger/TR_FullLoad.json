@@ -1,0 +1,32 @@
+{
+    "name": "TR_FullLoad",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Stopped",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "TaxiDemo",
+                    "type": "PipelineReference"
+                },
+                "parameters": {
+                    "FullLoad": "True"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Week",
+                "interval": 1,
+                "startTime": "2021-09-02T22:11:00Z",
+                "timeZone": "UTC",
+                "schedule": {
+                    "weekDays": [
+                        "Sunday"
+                    ]
+                }
+            }
+        }
+    }
+}

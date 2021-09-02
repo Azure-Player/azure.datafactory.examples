@@ -1,0 +1,2 @@
+type,name,path,value
+trigger,TR_FullLoad,pipelines[0].parameters.Fullload,FALSE
